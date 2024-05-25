@@ -23,5 +23,3 @@ This project is a front-end design for an online shopping system. It focuses on 
 
 5. **Review Page**
     - Users can add their reviews about the store or products.
-
-This project demonstrates the use of modern web technologies to create an engaging and responsive front-end design for an online shopping system.
