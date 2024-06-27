@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Jackets</title>
+        <link rel="stylesheet" type="text/css" href="Tops.css">
+        <script src="C:\Users\karim\OneDrive\Documents\MVP\Categories.js"></script>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li class="home"><a href="OnlineShopping.html"> HOME </a></li>
+                <li class="aboutus"><a href="AboutUs2.html">ABOUT US</a></li>
+                <li class="review"><a href="Review.html">REVIEW</a></li>
+                <li ><a href="OnlineShopping.html"> <img src= "C:\Users\karim\OneDrive\Desktop\HCI\mvpLogoBeige.png" class="logo"> </a></li>
+                <li class="menu">
+                    <div class="dropdown">
+                        <div class="dropdown-title" tabindex="0">
+                          <span class="dropdown-logo">▼</span>
+                          <p class="dropdown-txt">CATEGORIES</p>
+                        </div>
+                        <div class="dropdown-list">
+                          <a href="Tops.html" class="dropdown-list-item">Tops</a>
+                          <a href="Pants.html" class="dropdown-list-item">Pants</a>
+                          <a href="Dresses.html" class="dropdown-list-item">Jackets</a> 
+                        </div>
+                      </div>
+                </li>
+            </ul>
+        </nav>
+
+        <h1 align="Center">Jackets</h1>
+        <div>
+            <table border="2px" width="100%" class="Productstable">
+                <tr align="center">
+                    <td><img src ="C:\Users\karim\OneDrive\Desktop\HCI\Jacket2.png" width = "200px" id = "img1" onmouseover="changeImg('img1','img2')" onmouseout = "changeImg('img1','img2')"/>
+                        <img src = "C:\Users\karim\OneDrive\Desktop\HCI\side j2.png" id = "img2" width = "200px">
+                    </td>
+                    <td><img src = "C:\Users\karim\OneDrive\Desktop\HCI\Jacket3.png" id = "img3" width = "200px" onmouseover="changeImg('img3','img4')" onmouseout = "changeImg('img3','img4')">
+                        <img src = "C:\Users\karim\OneDrive\Desktop\HCI\side_j3-removebg-preview.png" id = "img4" width = "200px">
+                    </td>    
+                    <td><img src = "C:\Users\karim\OneDrive\Desktop\HCI\Jacket1.png" width = "200px" id = "img5" onmouseover="changeImg('img5','img6')" onmouseout = "changeImg('img5','img6')"/>
+                        <img src = "C:\Users\karim\OneDrive\Desktop\HCI\side_j1-removebg-preview.png" id = "img6" width = "200px">
+                    </td>
+                    <td><img src ="C:\Users\karim\OneDrive\Desktop\HCI\Jacket4.png"width = "200px" id = "img7" onmouseover="changeImg('img7','img8')" onmouseout = "changeImg('img7','img8')"/>
+                        <img src = "C:\Users\karim\OneDrive\Desktop\HCI\side_j4-removebg-preview.png" id = "img8" width = "200px">
+                    </td>
+                </tr>
+            </table>
+            <table  class = "description" width="100%" >
+                <tr align="center">
+                    <td>OFF-WHITE JACKET <br> 4500 EGP
+                    <br>
+                        <input type="button" value="Add to cart" id = "b17" onclick = "addToCart('b17')"/></td>
+                    <td>BEIGE CASHMERE JACKET<br> 4000 EGP
+                    <br>
+                        <input type="button" value="Add to cart" id = "b18" onclick = "addToCart('b18')"/></td>
+                    <td>BEIGE LINEN JACKET<br> 4900 EGP
+                    <br>
+                        <input type="button" value="Add to cart" id = "b19" onclick = "addToCart('b19')"/></td>
+                    <td>BEIGE TEXTURED JACKET <br> 7000 EGP
+                    <br>
+                        <input type="button" value="Add to cart" id = "b20" onclick = "addToCart('b20')"/></td>
+                </tr>
+            </table>
+
+            <table border="2px" width="100%" class="secondTable">
+                <tr align="center">
+                    <td><img src ="C:\Users\karim\OneDrive\Desktop\HCI\front_j5-removebg-preview.png" width = "200px" id = "img9" onmouseover="changeImg('img9','img10')" onmouseout = "changeImg('img9','img10')"/>
+                        <img src = "C:\Users\karim\OneDrive\Desktop\HCI\back_j5-removebg-preview.png" id = "img10" width = "200px">
+                    </td>
+                    <td><img src = "C:\Users\karim\Downloads\front_j6-removebg-preview.png" id = "img11" width = "200px" onmouseover="changeImg('img11','img12')" onmouseout = "changeImg('img11','img12')">
+                        <img src = "C:\Users\karim\Downloads\side_j6-removebg-preview.png" id = "img12" width = "200px">
+                    </td>    
+                    <td><img src = "C:\Users\karim\OneDrive\Desktop\HCI\front_j7-removebg-preview.png" width = "200px" id = "img13" onmouseover="changeImg('img13','img14')" onmouseout = "changeImg('img13','img14')"/>
+                        <img src = "C:\Users\karim\OneDrive\Desktop\HCI\side_j7-removebg-preview.png" id = "img14" width = "200px">
+                    </td>
+                    <td><img src ="C:\Users\karim\OneDrive\Desktop\HCI\front_j8-removebg-preview.png"width = "200px" id = "img15" onmouseover="changeImg('img15','img16')" onmouseout = "changeImg('img15','img16')"/>
+                        <img src ="C:\Users\karim\OneDrive\Desktop\HCI\side_j8-removebg-preview.png"id = "img16" width = "200px">
+                    </td>
+                </tr>
+            </table>
+            <table class = "description" width="100%">
+                <tr align="center">
+                    <td>WHITE SUEDE JACKET <br> 4500 EGP
+                    <br>
+                        <input type="button" value="Add to cart" id = "b21" onclick = "addToCart('b21')"/></td>
+                    <td>COLOUR BLOCK PUFFER JACKET<br> 6550 EGP
+                    <br>
+                        <input type="button" value="Add to cart" id = "b22" onclick = "addToCart('b22')"/></td>
+                    <td>LIGHTWEIGHT TECHNICAL PARKA<br> 5000 EGP
+                    <br>
+                        <input type="button" value="Add to cart" id = "b23" onclick = "addToCart('b23')"/></td>
+                    <td>HOODED BOMBER JACKET <br> 5500 EGP
+                    <br>
+                        <input type="button" value="Add to cart" id = "b24" onclick = "addToCart('b24')"/></td>
+                </tr>
+            </table>
+        </div>
+
+    </body>
+</html>
